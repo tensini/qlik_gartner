@@ -1,0 +1,30 @@
+Pick(Match(-1,
+
+ Match(Vendor, 'Qlik', 'QlikTech') > 0,
+ Vendor = 'Tableau',
+ Vendor = 'Microsoft',
+ 
+ isLeader =  Max(Year),                            // Leader in the year
+ Len(isLeader) = 0 and LeaderAnoAA =  Max(Year)-1, // Leader in last year
+ Len(wasLeader) > 0                                // Leader in the past
+
+ )+1,
+ 
+ RGB(210,210,210), // Gray   #D2D2D2
+ RGB(0,255,0),     // Green  #00FF00
+ RGB(0,190,255),   // Blue   #00BEFF
+ RGB(255,255,0),   // Yellow #FFFF00
+ RGB(201,71,245),  // Purple #C947F5      //RGB(255,255,255), // White  #FFFFFF
+ RGB(255,0,0),     // Red    #FF0000
+ RGB(255,170,0)    // Orange #FFAA00
+
+)
+
+
+
+
+
+
+
+
+
