@@ -12,7 +12,7 @@
             "footer": {
                 "color": "@FooterColor",
                 "fontSize": "@FooterSize",
-                "backgroundColor": "#ffffff"
+                "backgroundColor": "#293340"
             }
         },
         "label": {
@@ -67,7 +67,7 @@
             },
             "outOfBounds": {
                 "color": "@TextColor",
-                "backgroundColor": "#ccdcf1",
+                "backgroundColor": "#293340",
                 "fontSize": "@TextSize"
             }
         },
@@ -834,11 +834,11 @@
         "@SubtitleSize": "14px",
         "@TextSize": "12px",
         "@FooterSize": "10px",
-        "@TitleColor": "#102c4a",
-        "@SubtitleColor": "#102c4a",
-        "@TextColor": "#102c4a",
+        "@TitleColor": "#ffffff",
+        "@SubtitleColor": "#ffffff",
+        "@TextColor": "#ffffff",
         "@FooterColor": "#102c4a",
-        "@BackgroundColor": "#495b67",
+        "@BackgroundColor": "#293340",
         "@AxisMajorColor": "#eeeeee",
         "@AxisMinorColor": "#eeeeee"
     },
