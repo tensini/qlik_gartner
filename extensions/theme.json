@@ -1,0 +1,848 @@
+{
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleSize"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterSize",
+                "backgroundColor": "#ffffff"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "value": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "line": {
+                "major": {
+                    "color": "#ccdcf1"
+                },
+                "minor": {
+                    "color": "#ccdcf1"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "#ccdcf1"
+                },
+                "major": {
+                    "color": "#ccdcf1"
+                },
+                "minor": {
+                    "color": "#ccdcf1"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "outOfBounds": {
+                "color": "@TextColor",
+                "backgroundColor": "#ccdcf1",
+                "fontSize": "@TextSize"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        }
+    },
+    "dataColors": {
+        "primaryColor": "#0051BA",
+        "othersColor": "#FFA600",
+        "errorColor": "#CC4000",
+        "nullColor": "#CCCCCC"
+    },
+    "palettes": {
+        "data": [
+            {
+                "name": "Tons de Azul",
+                "translation": "Tons de Azul",
+                "propertyValue": "9fy7jb",
+                "type": "row",
+                "scale": [
+                    "#2686c2",
+                    "#173753",
+                    "#2F6690",
+                    "#00B4D8",
+                    "#EBF2FA",
+                    "#587291",
+                    "#CDF7F6",
+                    "#006992",
+                    "#6DAEDB"
+                ]
+            },
+            {
+                "name": "Contrastes",
+                "translation": "Contrastes",
+                "propertyValue": "qdp8t4",
+                "type": "row",
+                "scale": [
+                    "#2686c2",
+                    "#b3d332",
+                    "#ffd54d",
+                    "#de4848",
+                    "#46b4be",
+                    "#6c5ea5",
+                    "#e2f0f9",
+                    "#23a16d",
+                    "#dc8c3d",
+                    "#0e5a8a",
+                    "#984447",
+                    "#caaaa1",
+                    "#4dbd8a",
+                    "#856a5d",
+                    "#495b67",
+                    "#09bb33"
+                ]
+            },
+            {
+                "name": "2 Cores",
+                "translation": "2 Cores",
+                "propertyValue": "2cores",
+                "type": "row",
+                "scale": [
+                    "#2686c2",
+                    "#de4848"
+                ]
+            },
+            {
+                "name": "Azul x Cinza",
+                "translation": "Azul x Cinza",
+                "propertyValue": "azulxcinza",
+                "type": "row",
+                "scale": [
+                    "#0e5a8a",
+                    "#b7c8dd"
+                ]
+            },
+            {
+                "name": "Azul x Azul Claro",
+                "translation": "Azul x Azul Claro",
+                "propertyValue": "azulxazulcl",
+                "type": "row",
+                "scale": [
+                    "#0e5a8a",
+                    "#c6c6c6"
+                ]
+            },
+            {
+                "name": "3 Cores",
+                "translation": "3 Cores",
+                "propertyValue": "3cores",
+                "type": "row",
+                "scale": [
+                    "#0E5A8A",
+                    "#B7C8DD",
+                    "#C6C6C6"
+                ]
+            },
+            {
+                "name": "4 Cores",
+                "translation": "4 Cores",
+                "propertyValue": "4cores",
+                "type": "row",
+                "scale": [
+                    "#0E5A8A",
+                    "#B7C8DD",
+                    "#44AA99",
+                    "#C6C6C6"
+                ]
+            },
+            {
+                "name": "12 Colors",
+                "translation": "properties.colorNumberOfColors.12",
+                "propertyValue": "12",
+                "type": "pyramid",
+                "scale": [
+                    [
+                        "#4477aa"
+                    ],
+                    [
+                        "#4477aa",
+                        "#cc6677"
+                    ],
+                    [
+                        "#4477aa",
+                        "#ddcc77",
+                        "#cc6677"
+                    ],
+                    [
+                        "#4477aa",
+                        "#117733",
+                        "#ddcc77",
+                        "#cc6677"
+                    ],
+                    [
+                        "#332288",
+                        "#88ccee",
+                        "#117733",
+                        "#ddcc77",
+                        "#cc6677"
+                    ],
+                    [
+                        "#332288",
+                        "#88ccee",
+                        "#117733",
+                        "#ddcc77",
+                        "#cc6677",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#44aa99",
+                        "#88ccee",
+                        "#117733",
+                        "#ddcc77",
+                        "#cc6677",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#44aa99",
+                        "#88ccee",
+                        "#117733",
+                        "#999933",
+                        "#ddcc77",
+                        "#cc6677",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#44aa99",
+                        "#88ccee",
+                        "#117733",
+                        "#999933",
+                        "#ddcc77",
+                        "#cc6677",
+                        "#882255",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#44aa99",
+                        "#88ccee",
+                        "#117733",
+                        "#999933",
+                        "#ddcc77",
+                        "#661100",
+                        "#cc6677",
+                        "#882255",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#6699cc",
+                        "#44aa99",
+                        "#88ccee",
+                        "#117733",
+                        "#999933",
+                        "#ddcc77",
+                        "#661100",
+                        "#cc6677",
+                        "#882255",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#6699cc",
+                        "#88ccee",
+                        "#44aa99",
+                        "#117733",
+                        "#999933",
+                        "#ddcc77",
+                        "#661100",
+                        "#cc6677",
+                        "#aa4466",
+                        "#882255",
+                        "#aa4499"
+                    ]
+                ]
+            },
+            {
+                "name": "Plesant",
+                "translation": "properties.colorNumberOfColors.plesant",
+                "propertyValue": "plesant",
+                "disabled": "true",
+                "type": "pyramid",
+                "scale": [
+                    [
+                        "#e41a1c"
+                    ],
+                    [
+                        "#e41a1c",
+                        "#377eb8"
+                    ],
+                    [
+                        "#e41a1c",
+                        "#377eb8",
+                        "#4daf4a"
+                    ],
+                    [
+                        "#e41a1c",
+                        "#377eb8",
+                        "#4daf4a",
+                        "#984ea3"
+                    ],
+                    [
+                        "#e41a1c",
+                        "#377eb8",
+                        "#4daf4a",
+                        "#984ea3",
+                        "#ff7f00"
+                    ],
+                    [
+                        "#e41a1c",
+                        "#377eb8",
+                        "#4daf4a",
+                        "#984ea3",
+                        "#ff7f00",
+                        "#ffff33"
+                    ],
+                    [
+                        "#e41a1c",
+                        "#377eb8",
+                        "#4daf4a",
+                        "#984ea3",
+                        "#ff7f00",
+                        "#ffff33",
+                        "#a65628"
+                    ],
+                    [
+                        "#e41a1c",
+                        "#377eb8",
+                        "#4daf4a",
+                        "#984ea3",
+                        "#ff7f00",
+                        "#ffff33",
+                        "#a65628",
+                        "#f781bf"
+                    ]
+                ]
+            },
+            {
+                "name": "100 Colors",
+                "translation": "properties.colorNumberOfColors.100",
+                "propertyValue": "100",
+                "type": "row",
+                "scale": [
+                    "#99c867",
+                    "#e43cd0",
+                    "#e2402a",
+                    "#66a8db",
+                    "#3f1a20",
+                    "#e5aa87",
+                    "#3c6b59",
+                    "#aa2a6b",
+                    "#e9b02e",
+                    "#7864dd",
+                    "#65e93c",
+                    "#5ce4ba",
+                    "#d0e0da",
+                    "#d796dd",
+                    "#64487b",
+                    "#e4e72b",
+                    "#6f7330",
+                    "#932834",
+                    "#ae6c7d",
+                    "#986717",
+                    "#e3cb70",
+                    "#408c1d",
+                    "#dd325f",
+                    "#533d1c",
+                    "#2a3c54",
+                    "#db7127",
+                    "#72e3e2",
+                    "#e2c1da",
+                    "#d47555",
+                    "#7d7f81",
+                    "#54ae9b",
+                    "#e9daa6",
+                    "#3a8855",
+                    "#5be66e",
+                    "#ab39a4",
+                    "#a6e332",
+                    "#6c469d",
+                    "#e39e51",
+                    "#4f1c42",
+                    "#273c1c",
+                    "#aa972e",
+                    "#8bb32a",
+                    "#bdeca5",
+                    "#63ec9b",
+                    "#9c3519",
+                    "#aaa484",
+                    "#72256d",
+                    "#4d749f",
+                    "#9884df",
+                    "#e590b8",
+                    "#44b62b",
+                    "#ad5792",
+                    "#c65dea",
+                    "#e670ca",
+                    "#e38783",
+                    "#29312d",
+                    "#6a2c1e",
+                    "#d7b1aa",
+                    "#b1e7c3",
+                    "#cdc134",
+                    "#9ee764",
+                    "#56b8ce",
+                    "#2c6323",
+                    "#65464a",
+                    "#b1cfea",
+                    "#3c7481",
+                    "#3a4e96",
+                    "#6493e1",
+                    "#db5656",
+                    "#747259",
+                    "#bbabe4",
+                    "#e33f92",
+                    "#d0607d",
+                    "#759f79",
+                    "#9d6b5e",
+                    "#8574ae",
+                    "#7e304c",
+                    "#ad8fac",
+                    "#4b77de",
+                    "#647e17",
+                    "#b9c379",
+                    "#8da8b0",
+                    "#b972d9",
+                    "#786279",
+                    "#7ec07d",
+                    "#916436",
+                    "#2d274f",
+                    "#dce680",
+                    "#759748",
+                    "#dae65a",
+                    "#459c49",
+                    "#b7934a",
+                    "#51c671",
+                    "#9ead3f",
+                    "#969a5c",
+                    "#b9976a",
+                    "#46531a",
+                    "#c0f084",
+                    "#76c146",
+                    "#bad0ad"
+                ]
+            }
+        ],
+        "ui": [
+            {
+                "name": "Contrastes",
+                "colors": [
+                    "#2686c2",
+                    "#23a16d",
+                    "#dc8c3d",
+                    "#de4848",
+                    "#ffd54d",
+                    "#46b4be",
+                    "#495b67",
+                    "#b3d332",
+                    "#0e5a8a",
+                    "#984447",
+                    "#4dbd8a",
+                    "#6c5ea5",
+                    "#856a5d",
+                    "#e2f0f9",
+                    "#caaaa1",
+                    "#09bb33"
+                ]
+            },
+            {
+                "name": "Bom",
+                "colors": [
+                    "#23a16d"
+                ]
+            },
+            {
+                "name": "Médio",
+                "colors": [
+                    "#dc8c3d"
+                ]
+            },
+            {
+                "name": "Ruim",
+                "colors": [
+                    "#de4848"
+                ]
+            }
+        ]
+    },
+    "customStyles": [
+        {
+            "cssRef": "theme.css",
+            "classRef": "sense-theme"
+        }
+    ],
+    "scales": [
+        {
+            "name": "Sequential Gradient",
+            "translation": "properties.colorScheme.sequential",
+            "type": "gradient",
+            "propertyValue": "sg",
+            "scale": [
+                "#662506",
+                "#993404",
+                "#cc4c02",
+                "#ec7014",
+                "#fb9a29",
+                "#fec44f",
+                "#fee391",
+                "#fff7bc"
+            ]
+        },
+        {
+            "name": "Sequential Classes",
+            "translation": "properties.colorScheme.sequentialC",
+            "propertyValue": "sc",
+            "type": "class-pyramid",
+            "scale": [
+                null,
+                [
+                    "#d95f0e"
+                ],
+                [
+                    "#d95f0e",
+                    "#fec44f"
+                ],
+                [
+                    "#cc4c02",
+                    "#fb9a29",
+                    "#fed98e"
+                ],
+                [
+                    "#993404",
+                    "#d95f0e",
+                    "#fe9929",
+                    "#fed98e"
+                ],
+                [
+                    "#993404",
+                    "#d95f0e",
+                    "#fe9929",
+                    "#fec44f",
+                    "#fee391"
+                ],
+                [
+                    "#8c2d04",
+                    "#cc4c02",
+                    "#ec7014",
+                    "#fe9929",
+                    "#fec44f",
+                    "#fee391"
+                ],
+                [
+                    "#662506",
+                    "#993404",
+                    "#cc4c02",
+                    "#ec7014",
+                    "#fb9a29",
+                    "#fec44f",
+                    "#fee391"
+                ]
+            ]
+        },
+        {
+            "name": "Diverging gradient",
+            "translation": "properties.colorScheme.diverging",
+            "propertyValue": "dg",
+            "type": "gradient",
+            "scale": [
+                "#ae1c3e",
+                "#d24d3e",
+                "#ed875e",
+                "#f9bd7e",
+                "#e6f5fe",
+                "#b4ddf7",
+                "#77b7e5",
+                "#3a89c9",
+                "#3d52a1"
+            ]
+        },
+        {
+            "name": "Diverging Classes",
+            "translation": "properties.colorScheme.divergingC",
+            "propertyValue": "dc",
+            "type": "class-pyramid",
+            "scale": [
+                null,
+                [
+                    "#4477aa"
+                ],
+                [
+                    "#f5a275",
+                    "#99c7ec"
+                ],
+                [
+                    "#f5a275",
+                    "#fffad2",
+                    "#99c7ec"
+                ],
+                [
+                    "#d03232",
+                    "#f9bd7e",
+                    "#b4ddf7",
+                    "#008bce"
+                ],
+                [
+                    "#d03232",
+                    "#f9bd7e",
+                    "#fffad2",
+                    "#b4ddf7",
+                    "#008bce"
+                ],
+                [
+                    "#d24d3e",
+                    "#f5a275",
+                    "#ffe3aa",
+                    "#e6f5fe",
+                    "#99c7ec",
+                    "#3a89c9"
+                ],
+                [
+                    "#d24d3e",
+                    "#f5a275",
+                    "#ffe3aa",
+                    "#fffad2",
+                    "#e6f5fe",
+                    "#99c7ec",
+                    "#3a89c9"
+                ],
+                [
+                    "#d24d3e",
+                    "#ed875e",
+                    "#f9bd7e",
+                    "#ffe3aa",
+                    "#e6f5fe",
+                    "#b4ddf7",
+                    "#77b7e5",
+                    "#3a89c9"
+                ],
+                [
+                    "#ae1c3e",
+                    "#d24d3e",
+                    "#ed875e",
+                    "#f9bd7e",
+                    "#ffe3aa",
+                    "#b4ddf7",
+                    "#77b7e5",
+                    "#3a89c9",
+                    "#3d52a1"
+                ],
+                [
+                    "#ae1c3e",
+                    "#d24d3e",
+                    "#ed875e",
+                    "#f9bd7e",
+                    "#ffe3aa",
+                    "#e6f5fe",
+                    "#b4ddf7",
+                    "#77b7e5",
+                    "#3a89c9",
+                    "#3d52a1"
+                ]
+            ]
+        },
+        {
+            "scale": [
+                "#01b5d0",
+                "#EBFCFF"
+            ],
+            "name": "Azul Gradient",
+            "translation": "Azul Gradient",
+            "type": "gradient",
+            "propertyValue": "j0f4hw",
+            "_id": "5afef1e7a6cb421aa455f1c6"
+        },
+        {
+            "scale": [
+                "#d83fef",
+                "#c6ef4b"
+            ],
+            "name": "Roxo ao Verde",
+            "translation": "Roxo ao Verde",
+            "type": "gradient",
+            "propertyValue": "a6wfr",
+            "_id": "5afef3b9a6cb421aa455f1c7"
+        },
+        {
+            "name": "Vermelho Neutro Azul",
+            "translation": "Vermelho Neutro Azul",
+            "type": "gradient",
+            "propertyValue": "ypap3g",
+            "scale": [
+                "#2686c2",
+                "#e2f0f9",
+                "#de4848"
+            ]
+        },
+        {
+            "name": "Azul Gradient Ver 2",
+            "translation": "Azul Gradient Ver 2",
+            "type": "gradient",
+            "propertyValue": "k2zrkf2",
+            "scale": [
+                "#2A8DCB",
+                "#EEF6FC"
+            ]
+        },
+        {
+            "name": "Vermelho ao Azul",
+            "translation": "Vermelho ao Azul",
+            "type": "gradient",
+            "propertyValue": "k2zrkf",
+            "scale": [
+                "#2686c2",
+                "#de4848"
+            ]
+        },
+        {
+            "name": "Preto ao Azul",
+            "translation": "Cor Única",
+            "type": "class",
+            "propertyValue": "5l4suo",
+            "scale": [
+                "#2686c2"
+            ]
+        },
+        {
+            "name": "Contrastes",
+            "translation": "Contrastes",
+            "type": "class",
+            "propertyValue": "sko1he",
+            "scale": [
+                "#2686c2",
+                "#23a16d",
+                "#dc8c3d",
+                "#de4848",
+                "#ffd54d",
+                "#46b4be",
+                "#495b67",
+                "#b3d332",
+                "#0e5a8a",
+                "#984447",
+                "#4dbd8a",
+                "#6c5ea5",
+                "#856a5d",
+                "#e2f0f9",
+                "#caaaa1",
+                "#09bb33"
+            ]
+        },
+        {
+            "name": "Red Class",
+            "translation": "Red Class",
+            "type": "class",
+            "propertyValue": "redclass",
+            "scale": [
+                "#f93f17",
+                "#FAB29E",
+                "#feefeb"
+            ]
+        },
+        {
+            "name": "Red Gradient",
+            "translation": "Red Gradient",
+            "type": "gradient",
+            "propertyValue": "wfn2c",
+            "scale": [
+                "#f93f17",
+                "#FAB29E",
+                "#feefeb"
+            ]
+        },
+        {
+            "scale": [
+                "#2686c2",
+                "#44A0DA",
+                "#66B2E1",
+                "#88C3E7",
+                "#AAD4EE",
+                "#BBDDF2",
+                "#CCE5F5",
+                "#DDEEF8",
+                "#EEF7FC",
+                "#FFFFFF"
+            ],
+            "_id": "5ab10f43be1a68155e395fef",
+            "name": "Class Blue 10 colors",
+            "translation": "Class Blue 10 colors",
+            "type": "class",
+            "propertyValue": "zhe7xr"
+        },
+        {
+            "scale": [
+                "#102c4a",
+                "#1A4675",
+                "#215A97",
+                "#286EB8",
+                "#3682D3",
+                "#5897DA",
+                "#79ACE2",
+                "#9BC0E9",
+                "#BCD4F0",
+                "#DEEAF7"
+            ],
+            "_id": "5ab10f43be1a68155e395fee",
+            "name": "Class Dark Blue",
+            "translation": "Class Dark Blue",
+            "type": "class",
+            "propertyValue": "a0sgke"
+        }
+    ],
+    "_inherit": true,
+    "_variables": {
+        "@TitleSize": "15px",
+        "@SubtitleSize": "14px",
+        "@TextSize": "12px",
+        "@FooterSize": "10px",
+        "@TitleColor": "#102c4a",
+        "@SubtitleColor": "#102c4a",
+        "@TextColor": "#102c4a",
+        "@FooterColor": "#102c4a",
+        "@BackgroundColor": "#495b67",
+        "@AxisMajorColor": "#eeeeee",
+        "@AxisMinorColor": "#eeeeee"
+    },
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "backgroundColor": "@BackgroundColor"
+}
